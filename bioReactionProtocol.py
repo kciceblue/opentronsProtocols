@@ -22,3 +22,4 @@ def run(protocol: op_api.ProtocolContext):
         mount="left",
         tip_racks=[tipRack]
     )
+
