@@ -190,7 +190,7 @@ def run(protocol: op_api.ProtocolContext):
         for n in range(4):
             pipetteS.transfer(
                 volume=5,
-                source=holder2.wells()[n + 3],
+                source=holder2.wells()[m + 3],
                 dest=hs_combo.wells()[m + 10 * n],
                 mix_before=(3, 50),
                 new_tip="always",
